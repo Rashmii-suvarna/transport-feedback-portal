@@ -1,0 +1,203 @@
+/* LOGIN UI STYLES */
+.login-container {
+  max-width: 400px;
+  margin: 120px auto;
+  text-align: center;
+  padding: 30px;
+  border-radius: 12px;
+  background-color: #f0f4f8;
+  box-shadow: 0 0 20px rgba(0,0,0,0.08);
+}
+
+.login-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.brand {
+  color: #1976d2;
+}
+
+.login-quote {
+  font-style: italic;
+  font-size: 15px;
+  color: #4e5967;
+  margin-bottom: 10px;
+}
+
+.login-subtitle {
+  font-size: 16px;
+  color: #4e5967;
+  margin-bottom: 30px;
+}
+
+.login-buttons {
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+}
+
+.role-button {
+  width: 120px;
+  padding: 12px 18px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+  font-weight: bold;
+}
+
+.role-button.user {
+  background-color: #1976d2;
+  color: white;
+}
+
+.role-button.admin {
+  background-color: #455a64;
+  color: white;
+}
+
+.role-button:hover {
+  filter: brightness(0.95);
+}
+
+/* ADMIN LOGIN STYLES */
+.admin-login-container {
+  max-width: 400px;
+  margin: 120px auto;
+  padding: 30px;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.08);
+}
+
+.admin-password-input {
+  padding: 10px;
+  width: 80%;
+  margin: 15px 0;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.admin-button-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.login-button {
+  background-color: #388e3c;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.back-button {
+  background-color: #c62828;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* USER FEEDBACK FORM STYLES */
+.feedback-container {
+  max-width: 500px;
+  margin: 80px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.title {
+  font-size: 26px;
+  margin-bottom: 8px;
+  color: #1976d2;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #4e5967;
+  margin-bottom: 25px;
+}
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: left;
+}
+
+.feedback-form label {
+  font-weight: bold;
+  color: #333;
+}
+
+.feedback-form select,
+.feedback-form input,
+.feedback-form textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  background-color: #ffffff;
+}
+
+.feedback-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.submit-button {
+  background-color: #388e3c;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  filter: brightness(0.95);
+}
+
+.back-login {
+  margin-top: 20px;
+}
+
+/* ADMIN DASHBOARD TOP LOGOUT BUTTON */
+.admin-wrapper {
+  position: relative;
+}
+
+.admin-header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px 30px 0 0;
+}
+
+.logout-button {
+  background-color: #c62828;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  filter: brightness(0.95);
+}
