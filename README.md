@@ -33,24 +33,29 @@ It allows **users** to submit issues and **admins** to review and update statuse
 ## 📰 **Screenshots**
 
 <p><strong> Login Screen</strong><br/>
-<img src="screenshots/Screenshot_2025-07-02-12-15-21-227_com.example.event_planner_app - Copy - Copy.jpg" width="400"/>
+<img src="screenshots/Screenshot 2025-07-08 121020.png" width="500"/>
 </p>
 
-<p><strong> Home Screen</strong><br/>
-<img src="screenshots/Screenshot_2025-07-02-12-15-39-294_com.example.event_planner_app.jpg" width="400"/>
+<p><strong> User Feedback Screen</strong><br/>
+<img src="screenshots/Screenshot 2025-07-08 121213.png" width="500"/>
 </p>
 
-<p><strong> Create Event Screen</strong><br/>
-<img src="screenshots/Screenshot_2025-07-02-12-18-18-374_com.example.event_planner_app.jpg" width="400"/>
+<p><strong>Feedback Submission Screen</strong><br/>
+<img src="screenshots/Screenshot 2025-07-08 121230.png" width="500"/>
 </p>
 
-<p><strong> Event Info screen </strong><br/>
-<img src="screenshots/Screenshot_2025-07-02-12-20-04-137_com.example.event_planner_app - Copy.jpg" width="400"/>
+<p><strong> Admin Login screen </strong><br/>
+<img src="screenshots/Screenshot 2025-07-08 121256.png" width="500"/>
 </p>
 
-<p><strong> All Events Screen</strong><br/>
-<img src="screenshots/Screenshot_2025-07-02-12-51-10-365_com.example.event_planner_app.jpg" width="400"/>
+<p><strong> Admin Dashboard Screen</strong><br/>
+<img src="screenshots/Screenshot 2025-07-08 121334.png" width="500"/>
 </p>
+
+<p><strong> Status Reviewed Screen </strong><br/>
+<img src="screenshots/Screenshot 2025-07-08 121345.png" width="500"/>
+</p>
+
 
 ---
 
@@ -105,6 +110,10 @@ npm install
 npm start
 
 
+# 🔐 Admin Login
+To access the admin dashboard:
+
+Password: admin123
 ---
 
 ## 🙋‍♀️ **About the Developer**
